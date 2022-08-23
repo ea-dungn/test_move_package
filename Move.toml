@@ -1,5 +1,5 @@
 [package]
-name = "TEST_move_package"
+name = "@EastAgile/test_move_package"
 version = "1.0.1"
 
 [dependencies]
