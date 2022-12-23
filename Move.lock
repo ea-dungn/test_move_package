@@ -1,0 +1,17 @@
+[[package]]
+name = "UQ64x64"
+version = "0.3.1"
+repository_url = "https://github.com/pontem-network/UQ64x64"
+rev = "d9b184bca967e2d9d345f7503b21b93c4494d546"
+
+[[package]]
+name = "st_re"
+version = "0.0.0"
+repository_url = "https://github.com/Duedme/Move_Learning_Codes/blob/55b7323dd131f6039f0f8473953fd12bd8ccb2ee/structs_Resources/st_re"
+rev = "55b7323dd131f6039f0f8473953fd12bd8ccb2ee"
+
+[[package]]
+name = "Showdown"
+version = "0.0.0"
+repository_url = "https://github.com/move-game/Showdown"
+rev = "0c43ae8ed15739db05c60b2ee75e5a2012015ff7"
