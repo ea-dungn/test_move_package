@@ -5,7 +5,7 @@ version = "2.0.6"
 [dependencies.MoveStdlib]
 git = "https://github.com/move-language/move.git"
 subdir = "language/move-stdlib"
-rev = "main"
+rev = "583380718dc492cae1bd1f5f26b74e2f592ed60b"
 addr_subst = { std = "0x1" }
 
 [addresses]
