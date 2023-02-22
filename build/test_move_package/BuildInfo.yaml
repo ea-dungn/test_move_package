@@ -1,0 +1,21 @@
+---
+compiled_package_info:
+  package_name: test_move_package
+  address_alias_instantiation:
+    AAA: "0000000000000000000000000000000000000000"
+    std: "0000000000000000000000000000000000000001"
+  source_digest: 264C552BB78D12620F8D174CC9C4747642386CDD3808E8F22D80CFBF6526B8A8
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: ~
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib

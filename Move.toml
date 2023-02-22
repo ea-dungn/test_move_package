@@ -1,6 +1,12 @@
 [package]
 name = "test_move_package"
-version = "2.0.5"
+version = "2.0.6"
 
-[dependencies]
-AptosFramework = { git = "https://github.com/ptts1/aptos-core/blob/071ad02d3b5525a0f364e2bba0847f6f8cf3cdb9/aptos-move/framework/aptos-framework", rev = "071ad02d3b5525a0f364e2bba0847f6f8cf3cdb9" }
+[dependencies.MoveStdlib]
+git = "https://github.com/move-language/move.git"
+subdir = "language/move-stdlib"
+rev = "main"
+addr_subst = { std = "0x1" }
+
+[addresses]
+AAA = "0x0"
