@@ -1,11 +1,11 @@
 [package]
 name = "test_move_package"
-version = "2.0.7"
+version = "2.0.8"
 
 [dependencies.MoveStdlib]
 git = "https://github.com/move-language/move.git"
 subdir = "language/move-stdlib"
-rev = "583380718dc492cae1bd1f5f26b74e2f592ed60b"
+rev = "main"
 addr_subst = { std = "0x1" }
 
 [addresses]
