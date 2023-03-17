@@ -1,3 +1,6 @@
+// Copyright (c) Mysten Labs, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 module std::bit_vector {
     use std::vector;
 
@@ -71,9 +74,9 @@ module std::bit_vector {
         let x = vector::borrow_mut(&mut bitvector.bit_field, bit_index);
         *x = false;
     }
-    spec unset {
+    spec set {
         include UnsetAbortsIf;
-        ensures !bitvector.bit_field[bit_index];
+        ensures bitvector.bit_field[bit_index];
     }
     spec schema UnsetAbortsIf {
         bitvector: BitVector;

@@ -1,3 +1,6 @@
+// Copyright (c) Mysten Labs, Inc.
+// SPDX-License-Identifier: Apache-2.0
+
 /// This module defines the Option type and its methods to represent and handle an optional value.
 module std::option {
     use std::vector;
@@ -8,9 +11,12 @@ module std::option {
         vec: vector<Element>
     }
     spec Option {
-        /// The size of vector is always less than equal to 1
-        /// because it's 0 for "none" or 1 for "some".
-        invariant len(vec) <= 1;
+        // The size of vector is always less than equal to 1
+        // because it's 0 for "none" or 1 for "some".
+        //  TODO: disable temporarily to avoid an error triggered after
+        //  https://github.com/move-language/move/pull/820 was implemented
+        //  (change the comment above to doc comment once this id fixed)
+        //  invariant len(vec) <= 1;
     }
 
     /// The `Option` is in an invalid state for the operation attempted.

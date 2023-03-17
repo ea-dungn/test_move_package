@@ -4,7 +4,8 @@ compiled_package_info:
   address_alias_instantiation:
     AAA: "0000000000000000000000000000000000000000"
     std: "0000000000000000000000000000000000000001"
-  source_digest: 264C552BB78D12620F8D174CC9C4747642386CDD3808E8F22D80CFBF6526B8A8
+    sui: "0000000000000000000000000000000000000002"
+  source_digest: 6FC8E891950BB90640BCF5C1A42C4C6DB0B70EF5C902111EC4705EC654BB44D7
   build_flags:
     dev_mode: false
     test_mode: false
@@ -19,3 +20,4 @@ compiled_package_info:
     skip_fetch_latest_git_deps: false
 dependencies:
   - MoveStdlib
+  - Sui
