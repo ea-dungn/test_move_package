@@ -1,11 +1,11 @@
 [package]
 name = "test_move_package"
-version = "2.1.8"
+version = "2.2.8"
 
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui"
 subdir = "crates/sui-framework"
-rev = "main"
+rev = "releases/sui-v0.28.0-release"
 
 [addresses]
 AAA = "0x0"
