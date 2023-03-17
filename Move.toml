@@ -5,7 +5,7 @@ version = "3.0.2"
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui"
 subdir = "crates/sui-framework"
-rev = "releases/sui-v0.28.0-release"
+rev = "releases/sui-v0.27.0-release"
 
 [addresses]
 AAA = "0x0"
