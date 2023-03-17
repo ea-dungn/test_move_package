@@ -1,6 +1,6 @@
 [package]
 name = "test_move_package"
-version = "3.0.1"
+version = "3.0.2"
 
 [dependencies.Sui]
 git = "https://github.com/MystenLabs/sui"
