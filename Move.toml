@@ -2,11 +2,10 @@
 name = "test_move_package"
 version = "2.0.8"
 
-[dependencies.MoveStdlib]
-git = "https://github.com/move-language/move.git"
-subdir = "language/move-stdlib"
+[dependencies.Sui]
+git = "https://github.com/MystenLabs/sui"
+subdir = "crates/sui-framework"
 rev = "main"
-addr_subst = { std = "0x1" }
 
 [addresses]
 AAA = "0x0"
